@@ -8,3 +8,6 @@
 - The slope of this linear model is not considered to be zero because our R-Squared value is 0.7149 which means that roughly 71% of the variability of our dependent variable is explained using this linear model
 
 ![](photos/linearregression.PNG)
+
+
+## Summary Statistics on Suspension Coils
