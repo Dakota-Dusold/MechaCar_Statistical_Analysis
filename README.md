@@ -24,8 +24,6 @@
 
 ## T-Tests on Suspension Coils
 
-summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
 - T-Test Across All Lots: Since our p-value is .06 (greater then our significance of .05), we fail to reject the null hypothesis. Based on these results, the true mean across all lots is equal to 1500.
 ![](photos/ttestall.PNG)
 
@@ -37,3 +35,12 @@ summarize your interpretation and findings for the t-test results. Include scree
 
 - T-Test Lot 3: Lot 3 is statistically different from the population mean of 1500 lbs per square inch. The p-value is 0.04 which is less than our significance level of .05, therefore, we must reject the null hypothesis that there is no statistical difference. 
 ![](photos/ttestlot3.PNG)
+
+## Study Design: MechaCar vs Competition
+
+- Suggested Statistical Study: Test if MechaCar provides a safer vehicle than the competition at a lower cost.
+- The metrics used would be cost and safety rating.
+- Null Hypothesis H0: There is no statistical difference between MechaCar and their competition in terms of cost and safety ratings.
+- Alternative Hypothesis: There is a statistical difference between MechaCar and their competition in terms of cost and safety ratings.
+- The statistical tests used would be Multiple Linear Regression  and Pearson Correlation Coefficients. This way we could analyze if there is a difference statistically and if the relationship is positive, negative, or no correlation.
+- The data needed would be the cost and safety ratings from MechaCar's fleet and the competition's fleet of car offerings.
